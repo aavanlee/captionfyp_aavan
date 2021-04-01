@@ -2,9 +2,9 @@ Usage steps for Ubuntu 16.04:
 
 Downloads
 1. Download this repository
-2. Download the folder "annotations" from 
+2. Download the folder "annotations" from https://www.dropbox.com/sh/fg1timcbrcdyhye/AAAs6z-ggS02ZFsVKhSLIUEEa?dl=0
 3. Place the folder "annotations" in "data" folder
-4. Download the file "model_50000" from
+4. Download the file "model_50000" from https://www.dropbox.com/s/4rq62ru3ec9wdjk/model_50000?dl=0
 5. Place the file "model_50000" in "result" folder
 
 Ubuntu setup
@@ -32,3 +32,13 @@ Ubuntu setup
 22. pip install chainer
 23. sudo -i
 24. echo 1 > /proc/sys/vm/overcommit_memory
+25. cd cocoapi
+26. cd PythonAPI
+27. pip install -e.
+28. cd ..
+29. cd ..
+
+Run
+1. Put videos in "videos" folder, existing videos are: "airplane.mp4, bees.mp4, covid.mp4,"
+2. Run from terminal using $ python full.py <video_name>
+3. Example: python full.py airplane.mp4
