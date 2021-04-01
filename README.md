@@ -53,7 +53,7 @@ OR
 Run
 1. Put videos in "videos" folder, existing videos are: "airplane.mp4, bees.mp4, covid.mp4,"
 2. Run from terminal using $ python full.py <video_name>
-3. Example: python full.py airplane.mp4
+3. Example: python full.py bees.mp4
 
 
 Output:
