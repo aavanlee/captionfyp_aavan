@@ -9,7 +9,7 @@ Downloads
 
 Ubuntu setup
 1. sudo apt-get update
-2. sudo apt-get install build-essential checkinstall
+2. sudo apt-get install build-essential checkinstall OR sudo apt --fix-broken install FIRST
 3. sudo apt-get install -y build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev tar wget vim
 4. cd /opt
 5. sudo wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz
