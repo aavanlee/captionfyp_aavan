@@ -23,25 +23,32 @@ Ubuntu python setup
 12. sudo rm -f Python-3.8.5.tgz
 
 Ubuntu setup
+1. Change Directory to captionfyp_aavan
+2. python3.8 -m pip install virtualenv
+3. virtualenv -p python3.8 venv
+4. source venv/bin/activate
 
-14. Change Directory to captionfyp_aavan
-15. python3.8 -m pip install virtualenv
-16. virtualenv -p python3.8 venv
-17. source venv/bin/activate
-18. pip install pandas
-19. pip install dicttoxml
-20. pip install opencv-python
-21. pip install click
-22. pip install Pillow
-23. pip install chainer
-24. sudo -i
-25. echo 1 > /proc/sys/vm/overcommit_memory
-26. exit
-27. cd cocoapi
-28. cd PythonAPI
-29. pip install -e.
-30. cd ..
-31. cd ..
+Installing requirements
+1. pip install -r requirements.txt
+2. sudo -i
+3. echo 1 > /proc/sys/vm/overcommit_memory
+4. exit
+
+OR
+1. pip install pandas
+2. pip install dicttoxml
+3. pip install opencv-python
+4. pip install click
+5. pip install Pillow
+6. pip install chainer
+7. sudo -i
+8. echo 1 > /proc/sys/vm/overcommit_memory
+9. exit
+10. cd cocoapi
+11. cd PythonAPI
+12. pip install -e.
+13. cd ..
+14. cd ..
 
 Run
 1. Put videos in "videos" folder, existing videos are: "airplane.mp4, bees.mp4, covid.mp4,"
