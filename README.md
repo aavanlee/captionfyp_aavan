@@ -35,11 +35,12 @@ Ubuntu setup
 23. pip install chainer
 24. sudo -i
 25. echo 1 > /proc/sys/vm/overcommit_memory
-26. cd cocoapi
-27. cd PythonAPI
-28. pip install -e.
-29. cd ..
+26. exit
+27. cd cocoapi
+28. cd PythonAPI
+29. pip install -e.
 30. cd ..
+31. cd ..
 
 Run
 1. Put videos in "videos" folder, existing videos are: "airplane.mp4, bees.mp4, covid.mp4,"
