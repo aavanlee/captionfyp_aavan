@@ -22,6 +22,7 @@ Ubuntu python setup
 12. sudo rm -f Python-3.8.5.tgz
 
 Ubuntu setup
+
 14. Change Directory to captionfyp_aavan
 15. python3.8 -m pip install virtualenv
 16. virtualenv -p python3.8 venv
