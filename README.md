@@ -54,3 +54,10 @@ Run
 1. Put videos in "videos" folder, existing videos are: "airplane.mp4, bees.mp4, covid.mp4,"
 2. Run from terminal using $ python full.py <video_name>
 3. Example: python full.py airplane.mp4
+
+
+Output:
+1. images of keyframes are saved in /frames
+2. csv file named "videofile_name_minus_extension-Scenes.csv"
+3. json file named "prediction.json"
+4. xml file is not output yet as of now..
